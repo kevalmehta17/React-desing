@@ -8,7 +8,6 @@ const AboutUs = () => {
         </span>
       </div>
       <div className={styles.aboutRight}>
-
       </div>
     </section>
   )
