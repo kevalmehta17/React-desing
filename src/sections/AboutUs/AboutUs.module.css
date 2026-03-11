@@ -1,0 +1,17 @@
+.aboutContainer {
+  display: flex;
+  padding: 50px 80px;
+}
+
+.aboutLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}

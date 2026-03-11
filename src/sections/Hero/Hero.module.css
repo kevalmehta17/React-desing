@@ -150,26 +150,25 @@
 }
 
 .exploreBtn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    border: 0.71px solid #CFCFCF;
-    background-color: white;
-    border-radius: 72px;
-    gap:7.14px;
-    padding:10.71px 21.43px;
-    width: 339px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 7.14px;
+width: fit-content;
+border: 0.71px solid #CFCFCF;
+border-radius: 71.38px;
+padding: 10.71px 21.41px;
 }
 
 .exploreBtn button{
     border:transparent;
     background-color: transparent;
     font-weight: 300;
-    font-size: 27px;
+    font-size: 32px;
      line-height: 120%;
     letter-spacing: -1%;
     color: #000000;
+    
 }
 
 .exploreBtn img{
