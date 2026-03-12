@@ -1,0 +1,33 @@
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.subscriptionContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-block:50px;
+    flex-wrap: wrap;
+    /* gap:98px; */
+}
+
+.subscriptionContainer h4{
+    font-weight: 400;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    max-width: 276px;
+}
+
+.divider{
+    border: 1px solid #727272
+}
+.copyrightContainer{
+    padding-block: 26px;
+}

@@ -1,5 +1,6 @@
 import AboutUs from "../sections/AboutUs/AboutUs";
 import BestSeller from "../sections/BestSeller/BestSeller";
+import Footer from "../sections/Footer/Footer";
 import Hero from "../sections/Hero/Hero";
 import Navbar from "../sections/Navbar/Navbar";
 import OfferBanner from "../sections/OfferBanner/OfferBanner";
@@ -15,6 +16,7 @@ const Home = () => {
       <BestSeller />
       <Testimonial />
       <OfferBanner />
+      <Footer />
     </div>
   )
 }
