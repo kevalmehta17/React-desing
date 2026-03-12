@@ -1,0 +1,223 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.heading h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color: #000000;
+}
+
+.heading a {
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: underline;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color: #000000;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #0000001a;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.cardMedia {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 286px;
+  padding: 35px 20px;
+  /* background-color: #f2f2f2; */
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* gap: 16px; */
+}
+
+.cardBadge {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 98%;
+  letter-spacing: -1%;
+  color: #000000;
+}
+
+.rating {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  color: #faaa4c;
+  line-height: 98%;
+  letter-spacing: -1%;
+}
+
+.favoriteButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #8b8b8b;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.favoriteButton img {
+  width: 22px;
+  height: 22px;
+}
+
+.xsBoxImage,
+.refinedImage,
+.topImage {
+  display: block;
+  align-self: center;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.xsBoxImage {
+  width: 210px;
+  height: 180px;
+}
+
+.refinedImage {
+  width: 138px;
+  height: 230px;
+}
+
+.topImage {
+  width: 118px;
+  height: 214px;
+}
+
+.cardBody {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: auto;
+  gap: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e4e4e4;
+  padding: 32px 20px;
+}
+
+.productInfo {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.productInfo h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #000000;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.oldPrice {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000069;
+  line-height: 98%;
+  letter-spacing: -1%;
+  text-decoration: line-through;
+}
+
+.currentPrice {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 98%;
+  letter-spacing: -1%;
+  color: #000000;
+}
+
+.cartButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  border-radius: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 5px 10px;
+  min-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.cartButton img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 1200px) {
+  .productGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .heading h2 {
+    font-size: 40px;
+  }
+
+  .heading a {
+    font-size: 24px;
+  }
+
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .cardBody {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

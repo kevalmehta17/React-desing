@@ -38,7 +38,10 @@ const AboutUs = () => {
               libero.
             </p>
           </div>
+          <div className={styles.secondCardContentImage}>
+
              <img src={Houses} alt="houses Image" />
+          </div>
           </div>
       </div>
       {/* Right Side view */}

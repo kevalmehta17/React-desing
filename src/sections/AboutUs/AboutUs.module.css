@@ -1,7 +1,8 @@
 .aboutContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px 80px;
+  width: 100%;
+  max-width: none;
   gap: 80px;
 }
 
@@ -10,6 +11,7 @@
   flex-direction: column;
   padding-left: 5px;
   gap: 24px;
+  min-height: 100%;
 }
 
 .badge {
@@ -41,11 +43,14 @@
   letter-spacing: 0%;
   /* padding-top: 22.5px; */
   max-width: fit-content;
-  color: #333333;}
+  color: #333333;
+}
 
 .stats {
   /* padding-bottom: 52px; */
-  display: flex;
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   /* gap:20px; */
 }
@@ -54,8 +59,8 @@
   background: #f5f5f5;
   padding: 16px;
   border-radius: 4px;
-  width: 278px;
-  height: 142px;
+  width: 100%;
+  min-height: 142px;
 }
 .card h3 {
   font-weight: 600;
@@ -81,40 +86,57 @@
 }
 
 .secondCard {
-   background: #f5f5f5;
+  background: #f5f5f5;
   display: flex;
-  flex-direction: row;
-  width: 580px;
-  height: 145px;
+  /* flex-direction: row; */
+  align-items: center;
+  width: 100%;
+  min-height: 145px;
 }
 .secondCardContent {
-  display: flex;
+  /* display: flex;
+  width: 50%;
   flex-direction: column;
   gap: 8px;
-  padding-left: 24px;
+  padding-left: 24px; */
+  flex:1
 }
-.secondCardContent h3{
-  width: 49px;
-  height: 28px;
+.secondCardContent h3 {
+  width: 100%;
+  padding-top: 16px;
+  padding-left: 24px;
+  height: auto;
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0%;
-  color:#333333;
+  color: #333333;
 }
-.secondCardContent p{
+.secondCardContent p {
   font-weight: 400;
+  padding-left: 24px;
+
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color:#333333;
+  color: #333333;
 }
-.secondCard img {
-  width: 254px;
-  height:113px;
+.secondCardContentImage {
+  flex: 1;
+  min-width: 0;
+  /* display: flex; */
+  justify-content: center;
 }
-
+.secondCardContentImage img {
+  width: 100%;
+  max-width: 254px;
+  height: auto;
+}
 .aboutRight img {
-  max-width: 610px;
-  max-height: 628px;
+  /* width: 50%; */
+  /* max-width: 610px;
+  max-height: 628px; */
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
 }
