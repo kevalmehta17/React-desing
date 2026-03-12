@@ -1,12 +1,15 @@
 .aboutContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 50px 80px;
+  gap: 80px;
 }
 
 .aboutLeft {
-  width: 50%;
   display: flex;
   flex-direction: column;
+  padding-left: 5px;
+  gap: 24px;
 }
 
 .badge {
@@ -14,4 +17,104 @@
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0%;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: #f8f9fe;
+  max-width: fit-content;
+  max-height: 52px;
+}
+.aboutLeft h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0%;
+  max-width: fit-content;
+  /* padding-top: 23.34px; */
+}
+
+.aboutLeft p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  /* padding-top: 22.5px; */
+  max-width: fit-content;
+  color: #333333;}
+
+.stats {
+  /* padding-bottom: 52px; */
+  display: flex;
+  gap: 24px;
+  /* gap:20px; */
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 4px;
+  width: 278px;
+  height: 142px;
+}
+.card h3 {
+  font-weight: 600;
+  font-size: 24px;
+  width: 70px;
+  height: 28px;
+  padding-left: 24px;
+  color: #333333;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-left: 24px;
+  padding-top: 9px;
+}
+
+.aboutRight {
+  height: auto;
+  display: flex;
+}
+
+.secondCard {
+   background: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  width: 580px;
+  height: 145px;
+}
+.secondCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 24px;
+}
+.secondCardContent h3{
+  width: 49px;
+  height: 28px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color:#333333;
+}
+.secondCardContent p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color:#333333;
+}
+.secondCard img {
+  width: 254px;
+  height:113px;
+}
+
+.aboutRight img {
+  max-width: 610px;
+  max-height: 628px;
 }
