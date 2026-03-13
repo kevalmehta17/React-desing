@@ -23,8 +23,10 @@ const ReviewCard = ({
       </div>
       <div className={styles.reviewContent}>
         <h3>{reviewHeading}</h3>
-        <p>{review}</p>
+        <p>{review}
+
         <strong>– {name}</strong>
+        </p>
       </div>
     </div>
   );

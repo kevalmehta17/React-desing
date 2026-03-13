@@ -93,3 +93,33 @@
   letter-spacing: -1%;
   color: #000000;
 }
+
+@media (max-width:768px){
+  .container{
+    padding-block: 35px 21px;
+  }
+  .container h1{
+    font-size: 36px;
+  }
+  .testimonialCard{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap:16px;
+    padding-top:32px;
+    padding-bottom: 20px;
+  }
+  .reviewContent h3{
+    font-size:22.5px;
+  }
+} 
+
+@media (max-width:425px){
+  .container h1{
+    font-size: 30px;
+  }
+  .reviewContent h3{
+    font-size:18px;
+  }
+  .reviewContent p{
+    font-size: 16px;
+  }
+}
