@@ -4,6 +4,7 @@ import Bag from "../../assets/icons/bag-2.svg";
 import heart from "../../assets/icons/heart.svg";
 import profile from "../../assets/icons/profile.svg";
 import Search from "../../assets/icons/search-normal.svg";
+import Categories from "../../assets/image/category.png";
 
 const Navbar = () => {
   return (
@@ -31,6 +32,11 @@ const Navbar = () => {
             <img src={profile} alt="profile" />
           </button>
         </div>
+        <div className={styles.mobileMenu}>
+          <button>
+            <img src={Categories} alt="categories" />
+          </button>
+        </div>
       </div>
       {/* For Bottom */}
       <div className={styles.bottomRow}>
@@ -41,11 +47,11 @@ const Navbar = () => {
           <button>New</button>
           <button>Popular</button>
         </div>
-          <div className={styles.icons}> 
-            <button >
-              <img src={Search} alt="search" />
-            </button>
-          </div>
+        <div className={styles.icons}>
+          <button>
+            <img src={Search} alt="search" />
+          </button>
+        </div>
       </div>
     </div>
   );
