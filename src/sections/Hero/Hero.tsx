@@ -3,7 +3,7 @@ import ShampooBottle from "../../assets/image/Group 6270.png";
 import send from "../../assets/icons/send.svg";
 import arrowRight from "../../assets/icons/arrow-right.svg";
 import AceneIssue from "../../assets/image/Frame 6269.png";
-import arrowRightBlack from "../../assets/icons/arrow-right-black.svg"
+import arrowRightBlack from "../../assets/icons/arrow-right-black.svg";
 
 const Hero = () => {
   return (

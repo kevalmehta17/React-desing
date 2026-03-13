@@ -17,9 +17,9 @@
 
 .heroLeft {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
   padding-block: 106.5px;
   padding-left: 60px;
   gap: 40px;
@@ -71,7 +71,7 @@
 .shopBtn {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* gap: 10px; */
   max-width: 230px;
   border: 0.7px solid #000000;
@@ -79,6 +79,7 @@
   background-color: #000000;
   color: white;
   padding: 10px 20px;
+  gap:2px;
 }
 
 .shopBtn button {
@@ -95,6 +96,12 @@
   max-width: 440px;
   max-height: 460px;
   padding-top: 64px;
+}
+
+.heroRight img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .heroBottom {
@@ -119,8 +126,8 @@
   flex-direction: row;
   gap: 24px;
 }
-.bottomContentLeft{
-    width: 50%;
+.bottomContentLeft {
+  width: 50%;
 }
 .bottomContent img {
   max-width: 560px;
@@ -133,46 +140,163 @@
   flex-direction: column;
   gap: 30px;
 }
-.bottomContent h3 {
+.bottomInformation h3 {
   font-weight: 400;
-  font-size: 27px;
+  font-size: 28px;
   line-height: 120%;
   letter-spacing: -1%;
   color: #000000;
 }
 
-.bottomInformation p{
-    font-width: 300;
-    font-size: 27px;
-    line-height: 150%;
-    letter-spacing: -1%;
-    color: #000000;
+.bottomInformation p {
+  font-width: 300;
+  font-size: 27px;
+  line-height: 150%;
+  letter-spacing: -1%;
+  color: #000000;
 }
 
-.exploreBtn{
-display: flex;
-flex-direction: row;
-align-items: center;
-gap: 7.14px;
-width: fit-content;
-border: 0.71px solid #CFCFCF;
-border-radius: 71.38px;
-background-color: white;
-padding: 10.71px 21.41px;
+.exploreBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.14px;
+  width: fit-content;
+  border: 0.71px solid #cfcfcf;
+  border-radius: 71.38px;
+  background-color: white;
+  padding: 10.71px 21.41px;
 }
 
-.exploreBtn button{
-    border:transparent;
-    background-color: transparent;
-    font-weight: 300;
-    font-size: 32px;
-     line-height: 120%;
-    letter-spacing: -1%;
-    color: #000000;
-    
+.exploreBtn button {
+  border: transparent;
+  background-color: transparent;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #000000;
 }
 
-.exploreBtn img{
-    width: 39.54px;
-    height: 39.54px;
+.exploreBtn img {
+  width: 39.54px;
+  height: 39.54px;
+}
+
+@media (max-width: 768px) {
+  .heroUpper {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    padding-block: 80px;
+    gap: 40px;
+  }
+  .heading span {
+    display: flex;
+    justify-content: center;
+  }
+  .heading img {
+    display: none;
+  }
+  .heading h1 {
+    text-align: center;
+    padding-top: 11px;
+    padding-left: 0px;
+  }
+  .heroLeft p {
+    text-align: center;
+    padding-top: 16px;
+  }
+  .heroRight {
+    display: none;
+  }
+  .bottomContent{
+    display: flex;
+    flex-direction: column;
+    padding-top:26px
+  }
+  .bottomHeading{
+    font-size:40px;
+  }
+  .bottomContentLeft, .bottomInformation{
+    width: 100%;
+  }
+  .bottomInformation{
+    gap:16px
+  }
+  .bottomContent img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .bottomInformation h3{
+    font-size: 26px;
+  }
+  .bottomInformation p{
+    font-size: 20px;
+    /* gap:8.5px; */
+  }
+  .exploreBtn{
+    padding: 8.5px 18.5px;
+  }
+  .exploreBtn button{
+    font-size: 29px;
+  }
+  .exploreBtn img{
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (max-width:425px){
+
+  .heroLeft{
+    padding:62px 4px;
+  }
+
+  .heading span, .heading h1{
+    font-size: 45px;
+  }
+  .heading{
+    display: flex;
+    flex-direction: column;
+  }
+  .heroLeft p{
+    font-size:18px;
+  }
+  .heroBottom{
+    padding:30px 16px;
+  }
+  .bottomHeading{
+    font-size: 24px;
+  }
+  .bottomContent{
+    gap:24px;
+    padding-top: 16px;
+  }
+  .bottomInformation{
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 11px;
+  }
+  .bottomInformation h3{
+    font-size: 20px;
+  }
+  .bottomInformation p{
+    font-size: 14px;
+    /* padding-left: ; */
+  }
+  .exploreBtn{
+    padding: 7.5px 15.5px;
+    margin-top: 18px;
+  }
+  .exploreBtn button{
+    font-size: 22px;
+  }
 }

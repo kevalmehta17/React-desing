@@ -19,3 +19,15 @@ html {
   padding: 50px 75px 0px 75px;
   background-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 32px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding-inline: 20px;
+  }
+}
