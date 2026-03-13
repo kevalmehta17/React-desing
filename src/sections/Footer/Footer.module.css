@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: #000000;
     color:#FFFFFF;
+    margin-inline: -75px;
 }
 
 .subscriptionContainer{

@@ -14,11 +14,11 @@ const Navbar = () => {
           <img src={Logo} alt="logo" />
         </div>
         <div className={styles.navLinks}>
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
-          <a href="#">Spa</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#spa">Spa</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </div>
         <div className={styles.icons}>
           <button>

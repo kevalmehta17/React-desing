@@ -4,7 +4,7 @@ import HallImage from "../../assets/image/R.png";
 
 const AboutUs = () => {
   return (
-    <section className={styles.aboutContainer}>
+    <section id="about" className={styles.aboutContainer}>
       {/* Left Side view */}
       <div className={styles.aboutLeft}>
         <span className={styles.badge}>ABOUT US</span>

@@ -7,7 +7,7 @@ import arrowRightBlack from "../../assets/icons/arrow-right-black.svg"
 
 const Hero = () => {
   return (
-    <div className={styles.heroContainer}>
+    <div id="home" className={styles.heroContainer}>
       {/* TOP HERO */}
       <div className={styles.heroUpper}>
         {/* LEFT */}

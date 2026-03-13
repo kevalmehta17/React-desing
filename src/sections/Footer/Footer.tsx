@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.footerSection}>
+    <div id="contact" className={styles.footerSection}>
       {/* Email Subscription */}
       <div className={styles.subscriptionContainer}>
         <h4>Be the first to get notification about our upcoming event</h4>

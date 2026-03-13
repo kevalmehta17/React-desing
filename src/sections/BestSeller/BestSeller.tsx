@@ -53,7 +53,7 @@ const allProducts: {
 
 const BestSeller = () => {
   return (
-    <section className={styles.section}>
+    <section id="shop" className={styles.section}>
       <div className={styles.heading}>
         <h2>Discover Our Best-Sellers</h2>
         <a href="#">View all</a>
