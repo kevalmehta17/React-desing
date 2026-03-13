@@ -198,26 +198,155 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    gap: 32px;
+  }
+
   .heading {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 16px;
+    align-items: flex-end;
+    gap: 12px;
   }
 
   .heading h2 {
-    font-size: 40px;
+    font-size: 38px;
+    line-height: 1.05;
   }
 
   .heading a {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 1.1;
   }
 
   .productGrid {
     grid-template-columns: 1fr;
   }
 
+  .cardMedia {
+    min-height: 248px;
+    padding: 26px 16px;
+  }
+
+  .cardBadge,
+  .rating {
+    font-size: 18px;
+    line-height: 95%;
+  }
+
   .cardBody {
     align-items: flex-start;
     flex-direction: column;
+    gap: 12px;
+    padding: 24px 16px;
+  }
+
+  .productInfo h3 {
+    font-size: 15px;
+    line-height: 115%;
+  }
+
+  .oldPrice,
+  .currentPrice {
+    font-size: 15px;
+    line-height: 95%;
+  }
+
+  .cartButton {
+    min-height: 36px;
+    font-size: 13px;
+    gap: 8px;
+  }
+
+  .cartButton img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .section {
+    gap: 16px;
+  }
+
+  .heading {
+    align-items: flex-end;
+    gap: 6px;
+  }
+
+  .heading h2 {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  .heading a {
+    font-size: 16px;
+    line-height: 1.1;
+  }
+
+  .cardMedia {
+    min-height: 210px;
+    padding: 18px 12px;
+  }
+
+  .cardBadge,
+  .rating {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  .favoriteButton {
+    width: 32px;
+    height: 32px;
+  }
+
+  .favoriteButton img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .xsBoxImage {
+    width: 160px;
+    height: 135px;
+  }
+
+  .refinedImage {
+    width: 104px;
+    height: 174px;
+  }
+
+  .topImage {
+    width: 90px;
+    height: 163px;
+  }
+
+  .cardBody {
+    padding: 16px 12px;
+    gap: 8px;
+  }
+
+  .productInfo h3 {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .priceRow {
+    gap: 6px;
+  }
+
+  .oldPrice,
+  .currentPrice {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .cartButton {
+    min-height: 32px;
+    font-size: 12px;
+    gap: 6px;
+    padding: 4px 8px;
+  }
+
+  .cartButton img {
+    width: 18px;
+    height: 18px;
   }
 }
