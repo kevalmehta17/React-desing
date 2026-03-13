@@ -7,8 +7,10 @@ const Footer = () => {
       {/* Email Subscription */}
       <div className={styles.subscriptionContainer}>
         <h4>Be the first to get notification about our upcoming event</h4>
-        <input type="email" placeholder="Enter your email" />
+        <div className={styles.inputButtonContainer}>
+        <input type="email" placeholder="Email" />
         <button>Submit</button>
+        </div>
       </div>
       <hr className={styles.divider} />
       {/* CopyRight Section */}
