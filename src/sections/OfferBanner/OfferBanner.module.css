@@ -1,81 +1,105 @@
-.offerBanner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(261.99deg, #D1068C -18.97%, #1310A6 43.5%, #7E1B5C 102.32%);
-    padding:50px 141px;
-
+.offerBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    261.99deg,
+    #d1068c -18.97%,
+    #1310a6 43.5%,
+    #7e1b5c 102.32%
+  );
+  padding: 50px 141px;
 }
 
-.bannerHeading{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap:15px
+.bannerHeading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
 }
 
-.bannerHeading h1{
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 100%;
-    letter-spacing: -1%;
-    color:#FFFFFF;
-    /* padding-top */
+.bannerHeading h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color: #ffffff;
+  /* padding-top */
 }
 
-.bannerHeading h3{
-    font-weight: 400;
-    font-size:38px;
-    /* padding-left: 15px; */
-    line-height: 120%;
-    letter-spacing: -1%;
-    color:#FFFFFF;
+.bannerHeading h3 {
+  font-weight: 400;
+  font-size: 38px;
+  /* padding-left: 15px; */
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #ffffff;
 }
 
-.bannerHeading span{
-    font-weight: 700;
-    font-size: 38px;
-     line-height: 120%;
-    letter-spacing: -1%;
-    color:#FFFFFF
+.bannerHeading span {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #ffffff;
 }
 
-.bannerContent{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 50px 15px;
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 15px;
 }
 
-.bannerContent span{
-    font-weight: 400;
-    font-size: 86.67px;
-    line-height: 120%;
-    letter-spacing: -1%;
-    color:#FFFFFF
+.bannerContent span {
+  font-weight: 400;
+  font-size: 86.67px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #ffffff;
 }
 
-.bannerBtn{
-    
-    background-color: #FFFFFF;
-    border-radius:71.38px;
-    border: 1px solid #CFCFCF;
+.bannerBtn {
+  background-color: #ffffff;
+  border-radius: 71.38px;
+  border: 1px solid #cfcfcf;
 }
 
-.bannerBtn button{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border:transparent;
-    font-weight: 300;
-    font-size:32px;
-    line-height: 120%;
-    letter-spacing: -1%;
-    color:#000000;  
-    padding: 19.45px 21.45px;
-    gap: 7px;
+.bannerBtn button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: transparent;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: #000000;
+  padding: 19.45px 21.45px;
+  gap: 7px;
+}
+
+@media (max-width: 768px) {
+  .offerBanner {
+    padding: 40px 36px;
+  }
+  .bannerHeading {
+    gap: 9px;
+  }
+
+  .bannerHeading h3 {
+    font-size: 34px;
+  }
+  .bannerContent span {
+    font-size: 54px;
+  }
+  .bannerBtn button{
+    font-size:24px;
+    padding:14px 18px;
+  }
 }

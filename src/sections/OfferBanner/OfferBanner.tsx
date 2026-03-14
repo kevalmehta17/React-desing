@@ -11,7 +11,8 @@ const OfferBanner = () => {
         </h3>
       </div>
       <div className={styles.bannerContent}>
-        <span>Hurry, Offer Ends In 12hrs 30mins 56Seconds</span>
+        <span className={styles.offerText}>Hurry, Offer Ends In</span>
+        <span className={styles.offerTimer}>12hrs 30mins 56Seconds</span>
       </div>
       <div className={styles.bannerBtn}>
         <button>
