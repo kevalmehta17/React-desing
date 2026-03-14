@@ -10,6 +10,8 @@
     #7e1b5c 102.32%
   );
   padding: 50px 141px;
+/* padding:50px clamp(24px,8vw,141px); */
+
 }
 
 .bannerHeading {
@@ -98,8 +100,38 @@
   .bannerContent span {
     font-size: 54px;
   }
-  .bannerBtn button{
-    font-size:24px;
-    padding:14px 18px;
+  .bannerBtn button {
+    font-size: 24px;
+    padding: 14px 18px;
+  }
+}
+
+@media (max-width: 426px) {
+  .offerBanner {
+    padding: 28px 24.5px;
+  }
+  .bannerHeading {
+    gap: 7.5px;
+  }
+  .bannerHeading h1 {
+    font-size: 30px;
+  }
+  .bannerHeading h3,
+  .bannerHeading span {
+    font-size: 18.5px;
+  }
+  .bannerContent {
+    padding: 25px 10px;
+  }
+  .bannerContent span {
+    font-size: 26px;
+  }
+  .bannerBtn button {
+    padding: 11px 13px;
+    font-size: 20px;
+  }
+  .bannerBtn img{
+    width: 24px;
+    height: auto;
   }
 }
