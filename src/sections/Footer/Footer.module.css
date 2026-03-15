@@ -13,17 +13,19 @@
     justify-content: center;
     text-align: center;
     padding-block:50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 32px;
 }
 
 .subscriptionContainer h4{
     font-weight: 400;
     color:#FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-    max-width: 276px;
+    max-width: 280px;
+    /* width: min(100%, 276px) */
+    /* text-align: left; */
 }
 
 .inputButtonContainer{
@@ -69,9 +71,30 @@
 .copyrightContainer{
     text-align: center;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 120%;
     letter-spacing: 0%;
     color: #FFFFFF;
     padding-block: 26px;
+}
+
+@media (max-width: 768px){
+    .subscriptionContainer{
+        flex-direction: column;
+        /* max-width: min(100%, 280px); */
+    }
+    .subscriptionContainer h4{
+        font-size: 22px;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 426px){
+    .subscriptionContainer h4{
+        font-size:19px;
+    }
+
+    .copyrightContainer{
+        font-size:12.5px
+    }
 }
