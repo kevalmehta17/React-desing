@@ -1,9 +1,11 @@
 import styles from "./BestSeller.module.css";
-import HeartIcon from "../../assets/icons/heart.svg";
-import BagIcon from "../../assets/icons/bag-3.svg";
-import xsBox from "../../assets/image/xsBox.png";
-import ProductRefined from "../../assets/image/refined.png";
-import ProductTop from "../../assets/image/Top.png";
+import HeartIcon from "../../../assets/icons/heart.svg";
+import BagIcon from "../../../assets/icons/bag-3.svg";
+import xsBox from "../../../assets/image/xsBox.png";
+import ProductRefined from "../../../assets/image/refined.png";
+import ProductTop from "../../../assets/image/Top.png";
+import Button from "../../../components/Button";
+import Link from "../../../components/Link";
 
 const imageClassMap = {
   xsBoxImage: styles.xsBoxImage,
@@ -56,7 +58,7 @@ const BestSeller = () => {
     <section id="shop" className={styles.section}>
       <div className={styles.heading}>
         <h2>Discover Our Best-Sellers</h2>
-        <a href="#">View all</a>
+        <Link path="#">View all</Link>
       </div>
       <div className={styles.productGrid}>
         {allProducts.map((product) => (
@@ -67,9 +69,9 @@ const BestSeller = () => {
                   <p className={styles.cardBadge}>{product.badge}</p>
                   <span className={styles.rating}>★★★★★</span>
                 </div>
-                <button className={styles.favoriteButton} aria-label={`Add ${product.name} to favorites`}>
+                <Button className={styles.favoriteButton} aria-label={`Add ${product.name} to favorites`}>
                   <img src={HeartIcon} alt="favorite" />
-                </button>
+                </Button>
               </div>
               <img
                 className={imageClassMap[product.imageClassName]}
@@ -85,10 +87,10 @@ const BestSeller = () => {
                   <span className={styles.currentPrice}>{product.price}</span>
                 </div>
               </div>
-              <button className={styles.cartButton}>
+              <Button className={styles.cartButton}>
                 <span>Add to Cart</span>
                 <img src={BagIcon} alt="cart" />
-              </button>
+              </Button>
             </div>
           </article>
         ))}

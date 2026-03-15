@@ -9,3 +9,8 @@
     gap: 36px;
   }
 }
+@media (max-width: 425px) {
+  .homeContainer {
+    gap: 20px;
+  }
+}

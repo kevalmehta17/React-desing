@@ -1,10 +1,10 @@
-import AboutUs from "../sections/AboutUs/AboutUs";
-import BestSeller from "../sections/BestSeller/BestSeller";
-import Footer from "../sections/Footer/Footer";
-import Hero from "../sections/Hero/Hero";
-import Navbar from "../sections/Navbar/Navbar";
-import OfferBanner from "../sections/OfferBanner/OfferBanner";
-import Testimonial from "../sections/Testimonial/Testimonial";
+import AboutUs from "./components/AboutUs/AboutUs";
+import BestSeller from "./components/BestSeller/BestSeller";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import OfferBanner from "./components/OfferBanner/OfferBanner";
+import Testimonial from "./components/Testimonial/Testimonial";
 import styles from "./Home.module.css";
 
 const Home = () => {

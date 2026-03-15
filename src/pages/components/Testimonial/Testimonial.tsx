@@ -1,7 +1,7 @@
 import styles from "./Testimonial.module.css";
-import el1 from "../../assets/image/el3.png";
-import el2 from "../../assets/image/Ellipse 252.png";
-import el3 from "../../assets/image/el2.png";
+import el1 from "../../../assets/image/el3.png";
+import el2 from "../../../assets/image/Ellipse 252.png"
+import el3 from "../../../assets/image/el2.png";
 
 interface ReviewCardProps {
   imageSrc: string;

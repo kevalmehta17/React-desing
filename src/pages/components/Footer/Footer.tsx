@@ -1,4 +1,6 @@
 
+import Button from "../../../components/Button";
+import Input from "../../../components/Input";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -8,8 +10,8 @@ const Footer = () => {
       <div className={styles.subscriptionContainer}>
         <h4>Be the first to get notification about our upcoming event</h4>
         <div className={styles.inputButtonContainer}>
-        <input type="email" placeholder="Email" />
-        <button>Submit</button>
+        <Input type="email" placeholder="Email" />
+        <Button>Submit</Button>
         </div>
       </div>
       <hr className={styles.divider} />

@@ -1,9 +1,10 @@
 import styles from "./Hero.module.css";
-import ShampooBottle from "../../assets/image/Group 6270.png";
-import send from "../../assets/icons/send.svg";
-import arrowRight from "../../assets/icons/arrow-right.svg";
-import AceneIssue from "../../assets/image/Frame 6269.png";
-import arrowRightBlack from "../../assets/icons/arrow-right-black.svg";
+import ShampooBottle from "../../../assets/image/Group 6270.png";
+import send from "../../../assets/icons/send.svg";
+import arrowRight from "../../../assets/icons/arrow-right.svg";
+import AcneIssue from "../../../assets/image/Frame 6269.png";
+import arrowRightBlack from "../../../assets/icons/arrow-right-black.svg";
+import Button from "../../../components/Button";
 
 const Hero = () => {
   return (
@@ -29,7 +30,7 @@ const Hero = () => {
           </div>
           {/* For shop button */}
           <div className={styles.shopBtn}>
-            <button>Shop Now</button>
+            <Button>Shop Now</Button>
             <img src={arrowRight} alt="arrowRight" />
           </div>
         </div>
@@ -45,7 +46,7 @@ const Hero = () => {
         <h2 className={styles.bottomHeading}>Why Choose Xtragleam?</h2>
         <div className={styles.bottomContent}>
           <div className={styles.bottomContentLeft}>
-            <img src={AceneIssue} alt={"acene issue image"} />
+            <img src={AcneIssue} alt={"acne issue image"} />
           </div>
           <div className={styles.bottomInformation}>
             <h3>Struggling with acne issues?</h3>
@@ -56,7 +57,7 @@ const Hero = () => {
               soothing and nourishing your skin for long-term health.
             </p>
             <div className={styles.exploreBtn}>
-              <button>Explore Our Range</button>
+              <Button>Explore Our Range</Button>
               <img src={arrowRightBlack} alt="right arrow" />
             </div>
           </div>

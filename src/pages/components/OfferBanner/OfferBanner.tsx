@@ -1,5 +1,6 @@
 import styles from "./OfferBanner.module.css";
-import arrowRight from "../../assets/icons/arrow-right-black.svg";
+import arrowRight from "../../../assets/icons/arrow-right-black.svg";
+import Button from "../../../components/Button";
 
 const OfferBanner = () => {
   return (
@@ -15,10 +16,10 @@ const OfferBanner = () => {
         <span className={styles.offerTimer}>12hrs 30mins 56Seconds</span>
       </div>
       <div className={styles.bannerBtn}>
-        <button>
+        <Button>
           Shop the Sale
           <img src={arrowRight} alt="arrow right" />
-        </button>
+        </Button>
       </div>
     </div>
   );
