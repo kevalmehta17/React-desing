@@ -1,6 +1,6 @@
 
-import Button from "../../../../components/Button";
-import Input from "../../../../components/Input";
+import Button from "../../components/Button";
+import Input from "../../components/Input";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

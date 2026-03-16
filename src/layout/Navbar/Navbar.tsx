@@ -1,12 +1,12 @@
 import styles from "./Navbar.module.css";
-import Logo from "../../../../assets/image/Group 37.png";
-import Bag from "../../../../assets/icons/bag-2.svg";
-import heart from "../../../../assets/icons/heart.svg";
-import profile from "../../../../assets/icons/profile.svg";
-import Search from "../../../../assets/icons/search-normal.svg";
-import Categories from "../../../../assets/image/category.png";
-import Link from "../../../../components/Link";
-import Button from "../../../../components/Button";
+import Logo from "../../assets/image/Group 37.png"
+import Bag from "../../assets/icons/bag-2.svg";
+import heart from "../../assets/icons/heart.svg";
+import profile from "../../assets/icons/profile.svg";
+import Search from "../../assets/icons/search-normal.svg";
+import Categories from "../../assets/image/category.png";
+import Link from "../../components/Link";
+import Button from "../../components/Button";
 
 const Navbar = () => {
   return (
