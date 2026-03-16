@@ -3,7 +3,7 @@ import Logo from "../../assets/image/logo.png"
 import Bag from "../../assets/icons/bag2.svg";
 import heart from "../../assets/icons/heart.svg";
 import profile from "../../assets/icons/profile.svg";
-import Search from "../../assets/icons/searchIcon.svg";
+    import Search from "../../assets/icons/searchIcon.svg";
 import Categories from "../../assets/image/category.png";
 import Link from "../../components/Link";
 import Button from "../../components/Button";
