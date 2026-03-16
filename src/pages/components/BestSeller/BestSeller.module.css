@@ -197,7 +197,21 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .section {
+    gap: 40px;
+  }
+
+  .heading h2 {
+    font-size: 44px;
+  }
+
+  .heading a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 769px) {
   .section {
     gap: 32px;
   }
@@ -262,7 +276,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .section {
     gap: 16px;
   }
@@ -348,5 +362,80 @@
   .cartButton img {
     width: 18px;
     height: 18px;
+  }
+}
+@media (max-width: 322px) {
+  .section {
+    gap: 12px;
+  }
+
+  .heading h2 {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .heading a {
+    font-size: 13px;
+  }
+
+  .cardMedia {
+    min-height: 180px;
+    padding: 14px 10px;
+  }
+
+  .cardBadge,
+  .rating {
+    font-size: 13px;
+  }
+
+  .favoriteButton {
+    width: 28px;
+    height: 28px;
+  }
+
+  .favoriteButton img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .xsBoxImage {
+    width: 130px;
+    height: 110px;
+  }
+
+  .refinedImage {
+    width: 85px;
+    height: 140px;
+  }
+
+  .topImage {
+    width: 75px;
+    height: 132px;
+  }
+
+  .cardBody {
+    padding: 12px 10px;
+    gap: 6px;
+  }
+
+  .productInfo h3 {
+    font-size: 12px;
+  }
+
+  .oldPrice,
+  .currentPrice {
+    font-size: 12px;
+  }
+
+  .cartButton {
+    min-height: 28px;
+    font-size: 11px;
+    padding: 3px 7px;
+    gap: 4px;
+  }
+
+  .cartButton img {
+    width: 15px;
+    height: 15px;
   }
 }

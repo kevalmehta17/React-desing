@@ -78,6 +78,26 @@
     padding-block: 26px;
 }
 
+@media (max-width: 1024px){
+    .subscriptionContainer{
+        gap: 24px;
+        padding-block: 42px;
+    }
+
+    .subscriptionContainer h4{
+        font-size: 18px;
+        max-width: 250px;
+    }
+
+    .inputButtonContainer{
+        width: min(100%, 320px);
+    }
+
+    .copyrightContainer{
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px){
     .subscriptionContainer{
         flex-direction: column;
@@ -96,5 +116,41 @@
 
     .copyrightContainer{
         font-size:12.5px
+    }
+}
+
+@media (max-width: 321px){
+    .subscriptionContainer{
+        gap: 14px;
+        padding-block: 24px;
+    }
+
+    .subscriptionContainer h4{
+        font-size: 15px;
+        max-width: 250px;
+        line-height: 120%;
+    }
+
+    .inputButtonContainer{
+        width: 100%;
+        min-height: 38px;
+    }
+
+    .inputButtonContainer input{
+        font-size: 13px;
+        padding: 0 12px;
+        height: 38px;
+    }
+
+    .inputButtonContainer button{
+        min-width: 72px;
+        height: 38px;
+        font-size: 13px;
+        padding: 0 12px;
+    }
+
+    .copyrightContainer{
+        font-size: 11px;
+        padding-block: 18px;
     }
 }

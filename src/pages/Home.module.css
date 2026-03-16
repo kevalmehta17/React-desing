@@ -4,9 +4,15 @@
     gap:100px; 
 }
 
+@media (max-width: 1024px) {
+  .homeContainer {
+    gap: 58px;
+  }
+}
+
 @media (max-width: 768px) {
   .homeContainer {
-    gap: 36px;
+    gap: 38px;
   }
 }
 @media (max-width: 425px) {

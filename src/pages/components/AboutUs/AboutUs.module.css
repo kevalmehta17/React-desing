@@ -141,7 +141,18 @@
   border-radius: 4px;
 }
 
-@media (max-width:768px){
+@media (max-width: 1025px) {
+  .aboutContainer {
+    gap: 48px;
+  }
+
+  .aboutLeft h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width:769px){
   .aboutContainer{
     display:flex;
     flex-direction: column;
@@ -160,7 +171,7 @@
 
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .aboutContainer {
     gap: 24px;
     padding-right: 0;

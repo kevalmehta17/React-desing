@@ -94,7 +94,48 @@
   color: #000000;
 }
 
-@media (max-width:768px){
+@media (max-width: 1025px) {
+  .container {
+    padding-top: 52px;
+    padding-left: 16px;
+  }
+
+  .container h1 {
+    font-size: 44px;
+  }
+
+  .testimonialCard {
+    /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    gap: 18px;
+    padding-top: 38px;
+    padding-bottom: 56px;
+    padding-right: 16px;
+  }
+
+  .reviewCard {
+    padding: 22px 18px;
+  }
+
+  .imageContainer {
+    width: 88px;
+    height: 88px;
+  }
+
+  .reviewContent {
+    padding-top: 16px;
+  }
+
+  .reviewContent h3 {
+    font-size: 21px;
+  }
+
+  .reviewCard p,
+  .reviewCard strong {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:769px){
   .container{
     padding-block: 35px 21px;
   }
@@ -121,5 +162,48 @@
   }
   .reviewContent p{
     font-size: 16px;
+  }
+}
+
+@media (max-width: 322px) {
+  .container {
+    padding-top: 24px;
+    padding-left: 10px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .testimonialCard {
+    gap: 10px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+  }
+
+  .reviewCard {
+    border-radius: 14px;
+    padding: 14px 12px;
+  }
+
+  .imageContainer {
+    width: 68px;
+    height: 68px;
+  }
+
+  .reviewContent {
+    gap: 8px;
+    padding-top: 12px;
+  }
+
+  .reviewContent h3 {
+    font-size: 15px;
+  }
+
+  .reviewCard p,
+  .reviewCard strong {
+    font-size: 13px;
+    line-height: 145%;
   }
 }
