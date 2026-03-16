@@ -1,57 +1,10 @@
 import styles from "./BestSeller.module.css";
-import HeartIcon from "../../../assets/icons/heart.svg";
-import BagIcon from "../../../assets/icons/bag-3.svg";
-import xsBox from "../../../assets/image/xsBox.png";
-import ProductRefined from "../../../assets/image/refined.png";
-import ProductTop from "../../../assets/image/Top.png";
-import Button from "../../../components/Button";
-import Link from "../../../components/Link";
-
-const imageClassMap = {
-  xsBoxImage: styles.xsBoxImage,
-  refinedImage: styles.refinedImage,
-  topImage: styles.topImage,
-} as const;
-
-type ImageClassName = keyof typeof imageClassMap;
-
-const allProducts: {
-  id: number;
-  badge: string;
-  name: string;
-  oldPrice: string;
-  price: string;
-  image: string;
-  imageClassName: ImageClassName;
-}[] = [
-  {
-    id: 1,
-    badge: "Best Seller",
-    name: "X5 Extreme Body Lotion",
-    oldPrice: "N35,000",
-    price: "N30,000",
-    image: xsBox,
-    imageClassName: "xsBoxImage",
-  },
-  {
-    id: 2,
-    badge: "Refined",
-    name: "AHA Face Toner",
-    oldPrice: "N75,000",
-    price: "N60,000",
-    image: ProductRefined,
-    imageClassName: "refinedImage",
-  },
-  {
-    id: 3,
-    badge: "Top",
-    name: "Anti Stretchmark Oil",
-    oldPrice: "N75,000",
-    price: "N70,000",
-    image: ProductTop,
-    imageClassName: "topImage",
-  },
-];
+import HeartIcon from "../../../../assets/icons/heart.svg";
+import BagIcon from "../../../../assets/icons/bag-3.svg";
+import Button from "../../../../components/Button";
+import Link from "../../../../components/Link";
+import allProducts from "../../../../constants/AllProducts";
+import { imageClassMap } from "../../../../constants/AllProducts";
 
 const BestSeller = () => {
   return (

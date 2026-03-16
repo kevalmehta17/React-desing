@@ -1,6 +1,6 @@
 import styles from "./OfferBanner.module.css";
-import arrowRight from "../../../assets/icons/arrow-right-black.svg";
-import Button from "../../../components/Button";
+import arrowRight from "../../../../assets/icons/arrow-right-black.svg";
+import Button from "../../../../components/Button";
 
 const OfferBanner = () => {
   return (
