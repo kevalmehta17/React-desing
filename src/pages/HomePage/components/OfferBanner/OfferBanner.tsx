@@ -1,5 +1,5 @@
 import styles from "./OfferBanner.module.css";
-import arrowRight from "../../../../assets/icons/arrow-right-black.svg";
+import arrowRight from "../../../../assets/icons/arrowRightBlack.svg";
 import Button from "../../../../components/Button";
 
 const OfferBanner = () => {
@@ -12,8 +12,7 @@ const OfferBanner = () => {
         </h3>
       </div>
       <div className={styles.bannerContent}>
-        <span className={styles.offerText}>Hurry, Offer Ends In</span>
-        <span className={styles.offerTimer}>12hrs 30mins 56Seconds</span>
+        <span>Hurry, Offer Ends In 12hrs 30mins 56Seconds</span>
       </div>
       <div className={styles.bannerBtn}>
         <Button>

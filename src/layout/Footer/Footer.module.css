@@ -36,7 +36,7 @@
     border-radius: 5px;
     width: min(100%, 340px);
     min-height: 44px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .inputButtonContainer input{
@@ -153,4 +153,5 @@
         font-size: 11px;
         padding-block: 18px;
     }
+    
 }

@@ -1,6 +1,6 @@
-import xsBox from  "../assets/image/xsBox.png"
-import ProductRefined from "../assets/image/refined.png";
-import ProductTop from "../assets/image/Top.png";
+import xsBox from  "../assets/image/firstBottle.png"
+import ProductRefined from "../assets/image/secondBottle.png";
+import ProductTop from "../assets/image/thirdBottle.png";
 import styles from "../pages/HomePage/components/BestSeller/BestSeller.module.css";
 
 // eslint-disable-next-line react-refresh/only-export-components

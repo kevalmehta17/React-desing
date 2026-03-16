@@ -11,7 +11,10 @@ const Footer = () => {
         <h4>Be the first to get notification about our upcoming event</h4>
         <div className={styles.inputButtonContainer}>
         <Input type="email" placeholder="Email" />
+        <div>
         <Button>Submit</Button>
+
+        </div>
         </div>
       </div>
       <hr className={styles.divider} />

@@ -1,9 +1,9 @@
 import styles from "./Hero.module.css";
-import ShampooBottle from "../../../../assets/image/Group 6270.png";
+import ShampooBottle from "../../../../assets/image/threeBottleImage.png";
 import send from "../../../../assets/icons/send.svg";
-import arrowRight from "../../../../assets/icons/arrow-right.svg";
-import AcneIssue from "../../../../assets/image/Frame 6269.png";
-import arrowRightBlack from "../../../../assets/icons/arrow-right-black.svg";
+import arrowRight from "../../../../assets/icons/arrowRightWhite.svg";
+import AcneIssue from "../../../../assets/image/acneIssue.png";
+import arrowRightBlack from "../../../../assets/icons/arrowRightBlack.svg";
 import Button from "../../../../components/Button";
 
 const Hero = () => {
@@ -21,12 +21,12 @@ const Hero = () => {
               </span>
               <h1>Expectations</h1>
             </div>
-            <div>
+         
               <p>
                 Clean, effective, and cruelty-free skincare made to deliver
                 visible results.
               </p>
-            </div>
+            
           </div>
           {/* For shop button */}
           <div className={styles.shopBtn}>

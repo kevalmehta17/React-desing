@@ -1,6 +1,6 @@
 import styles from "./BestSeller.module.css";
 import HeartIcon from "../../../../assets/icons/heart.svg";
-import BagIcon from "../../../../assets/icons/bag-3.svg";
+import BagIcon from "../../../../assets/icons/bag3.svg";
 import Button from "../../../../components/Button";
 import Link from "../../../../components/Link";
 import allProducts from "../../../../constants/AllProducts";

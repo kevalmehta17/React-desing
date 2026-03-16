@@ -1,9 +1,9 @@
 import styles from "./Navbar.module.css";
-import Logo from "../../assets/image/Group 37.png"
-import Bag from "../../assets/icons/bag-2.svg";
+import Logo from "../../assets/image/logo.png"
+import Bag from "../../assets/icons/bag2.svg";
 import heart from "../../assets/icons/heart.svg";
 import profile from "../../assets/icons/profile.svg";
-import Search from "../../assets/icons/search-normal.svg";
+import Search from "../../assets/icons/searchIcon.svg";
 import Categories from "../../assets/image/category.png";
 import Link from "../../components/Link";
 import Button from "../../components/Button";
@@ -32,7 +32,7 @@ const Navbar = () => {
           </Button>
           <Button>
             <img src={profile} alt="profile" />
-          </Button>
+          </Button>        
         </div>
         <div className={styles.mobileMenu}>
           <Button>

@@ -1,6 +1,6 @@
 import styles from "./AboutUs.module.css";
-import Houses from "../../../../assets/image/Pic About 2.png";
-import HallImage from "../../../../assets/image/R.png";
+import Houses from "../../../../assets/image/house.png";
+import HallImage from "../../../../assets/image/hallImage.png";
 
 const AboutUs = () => {
   return (

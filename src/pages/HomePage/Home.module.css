@@ -6,17 +6,17 @@
 
 @media (max-width: 1024px) {
   .homeContainer {
-    gap: 58px;
+    gap: 68px;
   }
 }
 
 @media (max-width: 768px) {
   .homeContainer {
-    gap: 38px;
+    gap: 50px;
   }
 }
 @media (max-width: 425px) {
   .homeContainer {
-    gap: 20px;
+    gap: 32px;
   }
 }
