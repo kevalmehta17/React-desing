@@ -27,7 +27,7 @@
 .navLinks a {
   text-decoration: none;
   color: #545454;
-  font-size: clamp(14px, 1.4vw, 25px);
+  font-size: 25px;
   font-weight: 300;
   transition:
     color 0.2s ease,

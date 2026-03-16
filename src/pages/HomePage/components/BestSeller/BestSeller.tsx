@@ -26,11 +26,12 @@ const BestSeller = () => {
                   <img src={HeartIcon} alt="favorite" />
                 </Button>
               </div>
+              <div className={styles.imageContainer}>
               <img
                 className={imageClassMap[product.imageClassName]}
                 src={product.image}
                 alt={product.name}
-              />
+              /></div>
             </div>
             <div className={styles.cardBody}>
               <div className={styles.productInfo}>
